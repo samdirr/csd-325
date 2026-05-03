@@ -1,0 +1,32 @@
+[
+    {
+        "F_Name": "Ellen",
+        "L_Name": "Ripley",
+        "Student_ID": 45604,
+        "Email": "eripley@gmail.com"
+    },
+    {
+        "F_Name": "Arthur",
+        "L_Name": "Dallas",
+        "Student_ID": 45605,
+        "Email": "adallas@gmail.com"
+    },
+    {
+        "F_Name": "Joan",
+        "L_Name": "Lambert",
+        "Student_ID": 45714,
+        "Email": "jlambert@gmail.com"
+    },
+    {
+        "F_Name": "Thomas",
+        "L_Name": "Kane",
+        "Student_ID": 68554,
+        "Email": "tkane@gmail.com"
+    },
+    {
+        "F_Name": "Samuel",
+        "L_Name": "Dirr",
+        "Student_ID": 21420947,
+        "Email": "sdirr@my365.bellevue.edu"
+    }
+]
