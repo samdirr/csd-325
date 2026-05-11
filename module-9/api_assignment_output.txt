@@ -1,0 +1,50 @@
+Connection test for http://api.open-notify.org/astros.json
+Status code: 200
+
+Raw Current Astronauts Response
+{"people": [{"craft": "ISS", "name": "Oleg Kononenko"}, {"craft": "ISS", "name": "Nikolai Chub"}, {"craft": "ISS", "name": "Tracy Caldwell Dyson"}, {"craft": "ISS", "name": "Matthew Dominick"}, {"craft": "ISS", "name": "Michael Barratt"}, {"craft": "ISS", "name": "Jeanette Epps"}, {"craft": "ISS", "name": "Alexander Grebenkin"}, {"craft": "ISS", "name": "Butch Wilmore"}, {"craft": "ISS", "name": "Sunita Williams"}, {"craft": "Tiangong", "name": "Li Guangsu"}, {"craft": "Tiangong", "name": "Li Cong"}, {"craft": "Tiangong", "name": "Ye Guangfu"}], "number": 12, "message": "success"}
+
+Formatted Current Astronauts
+People in space: 12
+Oleg Kononenko is aboard the ISS.
+Nikolai Chub is aboard the ISS.
+Tracy Caldwell Dyson is aboard the ISS.
+Matthew Dominick is aboard the ISS.
+Michael Barratt is aboard the ISS.
+Jeanette Epps is aboard the ISS.
+Alexander Grebenkin is aboard the ISS.
+Butch Wilmore is aboard the ISS.
+Sunita Williams is aboard the ISS.
+Li Guangsu is aboard the Tiangong.
+Li Cong is aboard the Tiangong.
+Ye Guangfu is aboard the Tiangong.
+
+Connection test for http://api.zippopotam.us/us/68106
+Status code: 200
+
+Raw ZIP Code Response
+{"country": "United States", "country abbreviation": "US", "post code": "68106", "places": [{"place name": "Omaha", "longitude": "-95.998", "latitude": "41.2403", "state": "Nebraska", "state abbreviation": "NE"}]}
+
+ZIP Code Response Formatted Like Tutorial JSON
+{
+    "country": "United States",
+    "country abbreviation": "US",
+    "post code": "68106",
+    "places": [
+        {
+            "place name": "Omaha",
+            "longitude": "-95.998",
+            "latitude": "41.2403",
+            "state": "Nebraska",
+            "state abbreviation": "NE"
+        }
+    ]
+}
+
+Formatted ZIP Code Information
+Post code: 68106
+Country: United States (US)
+Place: Omaha, NE
+Latitude: 41.2403
+Longitude: -95.998
+
